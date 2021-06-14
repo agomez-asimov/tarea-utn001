@@ -3,7 +3,7 @@ const Gasto = ({ categoria, descripcion, importe }) => {
         <>
             <span>{categoria}</span>&nbsp;
             <span>{descripcion}</span>&nbsp;
-            <span>${importe}</span>
+            <span>${importe.toFixed(2)}</span>
         </>
     )
 }

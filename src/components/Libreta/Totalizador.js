@@ -9,7 +9,7 @@ const Totalizador = ({ estadoCompartido }) => {
     return (
         <>
             <span>Total</span>&nbsp;
-            <span>${total}</span>
+            <span>${total.toFixed(2)}</span>
         </>
     );
 }
